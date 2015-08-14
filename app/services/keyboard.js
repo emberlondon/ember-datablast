@@ -1,1 +1,1 @@
-export { default } from 'datablast/services/keyboard';
+export { default } from 'ember-datablast/services/keyboard';

@@ -4,7 +4,7 @@
 var path = require('path');
 
 module.exports = {
-  name: 'datablast',
+  name: 'ember-datablast',
 
   treeForPublic: function() {
     return path.join(this.project.root, 'vendor');

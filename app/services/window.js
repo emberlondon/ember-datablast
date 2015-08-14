@@ -1,1 +1,1 @@
-export { default } from 'datablast/services/window';
+export { default } from 'ember-datablast/services/window';

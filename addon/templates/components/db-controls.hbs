@@ -1,0 +1,11 @@
+<p class="page">
+  Slide {{currentIndex}} of {{count}}
+</p>
+
+{{#if nextPath}}
+  {{link-to "Next" nextPath class="next"}}
+{{/if}}
+
+{{#if prevPath}}
+  {{link-to "Previous" prevPath class="prev"}}
+{{/if}}

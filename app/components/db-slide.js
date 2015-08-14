@@ -1,1 +1,1 @@
-export { default } from 'datablast/components/db-slide';
+export { default } from 'ember-datablast/components/db-slide';
