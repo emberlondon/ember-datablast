@@ -1,0 +1,96 @@
+html, body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  font-size: 32px;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+
+  background: #fcfcfc;
+  color: #333;
+}
+
+input, textarea, select {
+  font-size: 32px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+hr {
+  margin: 1em auto;
+  width: 25%; height: 1px;
+  border: 0;
+  background: #ccc;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  display: block;
+  color: #e24b31;
+  font-weight: bold;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+iframe {
+  display: block;
+  margin: 0;
+}
+
+body > .ember-view {
+  position: relative;
+  height: 100%;
+}
+
+db-slide {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  height: 100%;
+  text-align: center;
+}
+
+.db-slide-container {
+  display: block;
+  position: relative;
+}
+
+.application {
+  height: 100%;
+}
+
+.liquid-container, .liquid-child {
+  height: 100%;
+}
+
+.page, .prev, .next {
+  position: absolute;
+  padding: 1em;
+  color: #ccc;
+  font-size: .5em;
+  bottom: 0;
+}
+
+.page {
+  left: 25%; right: 25%;
+  text-align: center;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}

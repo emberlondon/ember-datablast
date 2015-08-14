@@ -1,0 +1,1 @@
+export { default } from 'datablast/services/window';

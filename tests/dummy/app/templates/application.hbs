@@ -1,3 +1,13 @@
-<h2 id="title">Welcome to Ember</h2>
+{{liquid-outlet}}
 
-{{outlet}}
+<p class="page">
+  Slide {{num-inc model.currentIndex}} of {{model.count}}
+</p>
+
+{{#if model.nextPath}}
+  {{link-to "Next" model.nextPath class="next"}}
+{{/if}}
+
+{{#if model.prevPath}}
+  {{link-to "Previous" model.prevPath class="prev"}}
+{{/if}}
