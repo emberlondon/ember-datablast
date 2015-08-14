@@ -7,6 +7,6 @@ module.exports = {
   name: 'ember-datablast',
 
   treeForPublic: function() {
-    return path.join(this.project.root, 'vendor');
+    return path.join(this.root, 'vendor');
   }
 };
