@@ -3,7 +3,7 @@ import layout from '../templates/components/db-controls';
 const { Component, computed } = Ember;
 
 export default Component.extend({
-  layout: layout,
+  layout,
 
   router: computed(function() {
     return this.container.lookup('router:main');
